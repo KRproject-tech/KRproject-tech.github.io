@@ -2,14 +2,14 @@
 
 body {
 	background:#FFF;
-	font-family: Agency FB, BankGothic Lt BT, sans-serif;
+	font-family: Agency FB, BankGothic Lt BT, 'Roboto', sans-serif;
 	font-size:150%;
 }
 
 h1 {
-  font-size: 8.0rem;
+  font-size: 6.0rem;
   /*font-family: 'HGP創英角ﾎﾟｯﾌﾟ体', 'Hiragino Mincho Pro', 'Hiragino Mincho ProN', 'HGS明朝E', 'ＭＳ Ｐ明朝', serif;*/
-  font-family:Agency FB, BankGothic Lt BT, serif;
+  font-family:Agency FB, BankGothic Lt BT, 'Roboto', sans-serif;
   padding: 1rem 2rem;
   /*color: #fff;*/
   background: #fff;
