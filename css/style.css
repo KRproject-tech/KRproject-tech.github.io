@@ -5,7 +5,7 @@ body {
 	font-family: Agency FB, BankGothic Lt BT, sans-serif;
 	font-size:150%;
 }
-
+/*
 h1 {
   font-size: 8.0rem;
   /*font-family: 'HGP創英角ﾎﾟｯﾌﾟ体', 'Hiragino Mincho Pro', 'Hiragino Mincho ProN', 'HGS明朝E', 'ＭＳ Ｐ明朝', serif;*/
@@ -21,7 +21,7 @@ h1 span {
   /*	background-image: url("../../chiba/assets/DSC00372_kimoto_ikeda_small.jpg");*/
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+}*/
 
 /*h2の背景をグラデーションする*/
 /*h2{
