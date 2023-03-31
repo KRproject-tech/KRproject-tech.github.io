@@ -10,6 +10,7 @@ h1 {
   font-size: 6.0rem;
   /*font-family: 'HGP創英角ﾎﾟｯﾌﾟ体', 'Hiragino Mincho Pro', 'Hiragino Mincho ProN', 'HGS明朝E', 'ＭＳ Ｐ明朝', serif;*/
   font-family:Agency FB, BankGothic Lt BT, 'Roboto', sans-serif;
+  text-align: center;
   padding: 1rem 2rem;
   /*color: #fff;*/
   background: #fff;
