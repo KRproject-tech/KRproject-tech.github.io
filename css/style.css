@@ -24,6 +24,10 @@ h1 span {
   /*-webkit-text-fill-color: transparent;*/
 }
 
+.center{
+text-align: center;
+}
+
 /*h2の背景をグラデーションする*/
 /*h2{
     font-size: 5.5rem;
