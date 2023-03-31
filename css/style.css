@@ -1,0 +1,172 @@
+/* user style */
+
+body {
+	background:#FFF;
+	font-family: Agency FB, BankGothic Lt BT, sans-serif;
+	font-size:150%;
+}
+
+h1 {
+  font-size: 10.5rem;
+  /*font-family: 'HGP創英角ﾎﾟｯﾌﾟ体', 'Hiragino Mincho Pro', 'Hiragino Mincho ProN', 'HGS明朝E', 'ＭＳ Ｐ明朝', serif;*/
+  font-family:Agency FB, BankGothic Lt BT, serif;
+  padding: 1rem 2rem;
+  color: #fff;
+  background: #fff;
+}
+
+h1 span {
+  /*background-image: -webkit-linear-gradient(315deg, #b8751e 0%, #ffce08 37%, #fefeb2 47%, #fafad6 50%, #fefeb2 53%, #e1ce08 63%, #b8751e 100%);*/
+  /*background-image: linear-gradient(135deg, #b8751e 0%, #ffce08 37%, #fefeb2 47%, #fafad6 50%, #fefeb2 53%, #e1ce08 63%, #b8751e 100%);*/
+	background-image: url("../../chiba/assets/DSC00372_kimoto_ikeda_small.jpg");
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*h2の背景をグラデーションする*/
+/*h2{
+    font-size: 5.5rem;
+    line-height: 1.6;
+    margin: 0 0 0;
+    display: inline-block;
+    background: -webkit-linear-gradient(30deg,#065ef6,#bc65dc,#eb5234);
+    -webkit-background-clip: text;/*背景をテキストでマスクする*/
+    -webkit-text-fill-color: transparent;
+    position: relative;
+}*/
+
+/*h2*/
+h2{
+    color: #080;  
+	background: #fff;
+	font-family:Agency FB, BankGothic Lt BT, serif;
+	font-size: 5.5rem;
+    line-height: 1.6;
+    margin: 0 0 0;    
+    position: relative;
+}
+
+/* ----------------------------------------- */
+
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 1500px;
+  height: 200px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  background-size: contain;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+.button:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+/* 画像付きボタン*/
+.button_1 {
+  width: 1500px;
+  height: 200px;
+  font-family: Agency FB, BankGothic Lt BT, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  background-image:url("../assets/Velocity_field.png");
+  background-size: cover;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  /*透過の設定*/
+  opacity: 0.5;
+  }
+
+.button_1:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+  /*透過の設定*/
+  opacity: 1.0;
+}
+/* 画像付きボタン*/
+.button_2 {
+  width: 1500px;
+  height: 200px;
+  font-weight: bold;
+  font-family: Agency FB, BankGothic Lt BT, sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;  
+  background-image:url("../assets/XFMV-8_1.png");
+  background-size: cover;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  /*透過の設定*/
+  opacity: 0.5;
+  }
+
+.button_2:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+  /*透過の設定*/
+  opacity: 1.0;
+}
+/* 画像付きボタン*/
+.button_3 {
+  width: 1500px;
+  height: 200px;
+  font-family: Agency FB, BankGothic Lt BT, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500; 
+  background-image:url("../assets/rolling_mode_SIDE_2.jpeg");
+  background-size: cover;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  /*透過の設定*/
+  opacity: 0.5;
+  }
+
+.button_3:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+  /*透過の設定*/
+  opacity: 1.0;
+}
