@@ -170,3 +170,50 @@ h2{
   /*透過の設定*/
   opacity: 1.0;
 }
+
+
+/*TOPボタン*/
+#pagetop {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    text-indent: -9999px;
+    margin: 0;
+}
+#pagetop a {
+    position: relative;
+    display: block;
+    width: 65px;
+    height: 65px;
+    background: rgba(0,0,0,1);
+    transition: opacity .6s ease;
+}
+#pagetop a:hover {
+    opacity: .3;
+}
+#pagetop a::before {
+    position: absolute;
+    top: 7px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 14px;
+    height: 14px;
+    margin: auto;
+    content: '';
+    transform: rotate(-45deg);
+    border-top: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+}
+@media screen and (max-width:767px) {
+#pagetop a {
+    width: 45px;
+    height: 45px;
+}
+#pagetop a::before {
+    top: 5px;
+    width: 10px;
+    height: 10px;
+}
+}
