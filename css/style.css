@@ -186,7 +186,7 @@ h2{
   text-transform: uppercase;
   letter-spacing: 2.5px;
   font-weight: 500; 
-  background-image:url("/eng/chiba/assets/XFMV-9B.png");
+  background-image:url("../assets/XFMV-9B.png");
   background-size: cover;
   border: none;
   border-radius: 25px;
