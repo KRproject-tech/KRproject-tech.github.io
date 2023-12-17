@@ -80,7 +80,7 @@ ol li:before{
 /*TOPƒ{ƒ^ƒ“*/
 #pagetop {
   position: fixed;
-  right: 0;
+  left: 0;
   bottom: 0;
   text-indent: -9999px;
   margin: 0;
