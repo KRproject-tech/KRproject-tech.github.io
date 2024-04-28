@@ -1,0 +1,130 @@
+body {
+	font-size: 120%;
+	font-family: "メイリオ", sans-serif; /*メイリオ*/
+}
+h3 {
+	position: relative;
+	padding: .25em 0 .5em .75em;
+	border-left: 6px solid #3498db;
+}
+h3::after {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	content: '';
+	width: 30%;
+	height: 0;
+	/*border-bottom: 1px solid #ccc;*/
+}
+HR {
+	width: 34%;
+	height: 5; 
+	text-align:left;
+	margin-left:0px
+}
+video {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: -2; 
+}
+A {
+	text-decoration: none;
+	display: inline-block;
+	padding: 0.1em 0.3em;
+	transition: all .3s;
+}
+A:hover {
+	color: #fff;
+	background-color: #00BCD4;
+}
+
+ol {
+  counter-reset:number; /*数字をリセット*/
+  list-style-type: none!important; /*数字を一旦消す*/
+  padding:0.5em;
+  border: dashed 1px gray;
+}
+
+ol li {
+  position: relative;
+  line-height: 1.5em;
+  padding: 0.5em 0.5em 0.5em 30px;
+}
+
+ol li:before{
+  /* 以下数字をつける */
+  position: absolute;
+  counter-increment: number;
+  content: counter(number);
+  /*数字のデザイン変える*/
+  display:inline-block;
+  background: #74c2f8;
+  color: white;
+  font-family: 'Avenir','Arial Black','Arial',sans-serif;
+  font-weight:bold;
+  font-size: 15px;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  /*以下上下中央寄せのため*/
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+/*TOPボタン*/
+#pagetop {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-indent: -9999px;
+  margin: 0;
+}
+#pagetop a {
+  position: relative;
+  display: block;
+  width: 65px;
+  height: 65px;
+  background: rgba(0,0,0,1);
+  transition: opacity .6s ease;
+}
+#pagetop a:hover {
+  opacity: .3;
+}
+#pagetop a::before {
+  position: absolute;
+  top: 7px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 14px;
+  height: 14px;
+  margin: auto;
+  content: '';
+  transform: rotate(-45deg);
+  border-top: 1px solid #FFF;
+  border-right: 1px solid #FFF;
+}
+@media screen and (max-width:767px) {
+#pagetop a {
+  width: 45px;
+  height: 45px;
+}
+#pagetop a::before {
+  top: 5px;
+  width: 10px;
+  height: 10px;
+}
+}
+
+model-viewer {
+  width: 100%;
+  height: 640px;
+  background-color: white;
+}
