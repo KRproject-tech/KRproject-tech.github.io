@@ -35,6 +35,14 @@ However, to improve travel efficiency and running stability, the motion in the u
 Therefore, we designed motions in these modes and constructed a method for switching between them.
 Experiments were conducted to verify the travel efficiency of the wheeled mode proposed in this study, and it was shown that, it can achieve greater travel efficiency than undulation.	
 </p>
+<h2 class="ttl__style01">Experimental setup</h2>
+<ol></ol>
+<p style="text-align: justify;">The main structure is composed of duralumin and ABS, and 17 servomotors (B3MSC-1170-A, KondoKagaku, Co. Ltd., Japan) are mounted on joints as actuators. These servomotors are arranged such that the rotation axes are staggered by 90 deg to enable three-dimensional undulation. The snake-like robot is equipped with a total of 7000mAh Li-Po batteries. Waterproof covers made of rubber and nylon enable the snake-like robot to maintain its waterproof and dustproof properties.</p>
+<p style="text-align: justify;">An infinite rotation joint exists between the head and tail sections with no rotation angle limit. To prevent water invasion, a bearing with a seal, two O-rings, and an oil seal are used. The brushed DC motor (DCX22L GB KL 12V, Maxon, Switzerland) or the brushless DC motor (ECXTQ22L BL KL B STD 12V, Maxon, Switzerland) in the infinite rotation joint is controlled under the position control mode during undulation and the velocity control mode during the wheel mode by PID control. The motors are equipped with 16:1 (GPX22HP 16:1, Maxon, Switzerland) and 35:1 (GPX22HP 35:1, Maxon, Switzerland) reduction gears.</p>
+<p style="text-align: justify;">The head link is equipped with two passive wheels, and the snake-like robot is transformed into a three-wheeled vehicle by deforming its tail section into a wheel shape. Efficient travel on flat ground is achieved using a wheel-shaped tail section and an infinite rotation joint. Steering control is achieved using a servomotor at the head link.</p>
+<p style="text-align: justify;">
+<img alt="XFMV-9B_straight" style="text-align: center; display: block; margin: 0 auto 20px;" src="./assets/XFMV-9B_straight.jpg" width="2198" height="1413">
+<img alt="XFMV-9B_wheelmode" style="text-align: center; display: block; margin: 0 auto 20px;" src="./assets/XFMV-9B_wheelmode.jpg" width="2196" height="1559"></p>
 <h2 class="ttl__style01">References</h2>
 <ol>
 <li><a href="https://robogaku.jp/news/2023/rsj2023_1B4.html" title="RSJ2023" class="linkhover" target="_blank" rel="noopener">T. Kimoto, A. Yamano and T. Iwasa, Development of a high-efficiency, high-speed moving snake-type robot with an additional non-rotating axis, The 41st annual conference of the Robotics Society of Japan,1B4-01, 2023.</a></li>
