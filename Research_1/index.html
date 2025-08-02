@@ -34,18 +34,27 @@
 <p style="text-align: justify;"></p>
 <p style="text-align: justify;">Then, we clarified that the appropriate drag model is the inertia drag model for water with small viscosity and the viscous drag model for oil which is a highly viscous fluid. Moreover, we confirmed that the undulation increased the tangential drag force along the body by 1.4 times. The position and velocity of the center of gravity of the snake-like robot, calculated using the numerical models, also agreed with the experimental results.&nbsp;</p>
 <h2 class="ttl__style01">Experimental setup</h2>
+<details>
+<summary>Details</summary>
 <p style="text-align: justify;">The main structure of the robot comprises duralumin, polyacetal resin, and carbon-fiber-reinforced plastic (CFRP), and it includes 13 servomotors (B3M-SC-1170-A, KondoKagaku, Co., Ltd., Japan) as the joint actuators. Because the swimming motion with lateral undulation is a 2D motion, 7 of 13 servomotors are used. Additionally, the snake-like robot has 3300 mAh Li&ndash;Po batteries and can move without a wired external power supply, which is otherwise common among swimming snake-like robots.</p>
 <p></p>
 <p><a href="./3Ddata/index.html" title="3D view" class="linkhover" target="_blank" rel="noopener"><img alt="XFMV-8" style="text-align: center; display: block; margin: 0 auto 20px;" src="../../assets/XFMV-8.png" width="1934" height="1094"></a>3D view</p>
+</details>
 <p></p>
 <h2 class="ttl__style01">Procedure for fluid force identification</h2>
+<details>
+<summary>Details</summary>
 <p style="text-align: justify;">We proposed a numerical model of the snake-like robot swimming in fluids with a wide range of viscosities, and the identification method of some unknown fluid force parameters using an unscented Kalman filter (UKF) (Julier et al., 1995; Julier and Uhlmann, 2004). After that, we identified the unknown added mass and drag coefficients for the fluid force acting on the snake-like robot by using the proposed method</p>
 <p><img alt="UKF_identificaion" style="text-align: center; display: block; margin: 0 auto 20px;" src="../../assets/UKF_identificaion.png" width="1934" height="1031"></p>
+</details>
 <h2 class="ttl__style01"></h2>
 <h2 class="ttl__style01">Identified results during swimming motion</h2>
+<details>
+<summary>Details</summary>
 <p style="text-align: justify;">The following figure represents the time series of COG velocity during swimming in water, oil I, and oil III at swimming frequencies 0.2 Hz and 0.5 Hz, respectively. Red and blue thin solid lines with markers represent the measured COG velocities. Because the measured velocity contained noise, the data processed using a fast Fourier transform (FFT) filter with a cutoff frequency of 2.0 Hz are represented by thick dashed lines. The COG velocities obtained from simulations of the numerical model constructed under the identified drag coefficients are shown by thick solid lines</p>
 <p>Because the time at which the snake-like robot begins swimming is a transient response, discrepancies were observed between the measured and simulation results; however, when the robot developed sufficient swimming speed, the error between the measured and simulation results was small.</p>
 <p><img alt="Identified_vel" style="text-align: center; display: block; margin: 0 auto 20px;" src="../../assets/XFMV-8_velocity.jpg" width="1934" height="1031"></p>
+</details>
 <h2 class="ttl__style01"></h2>
 <h2 class="ttl__style01">Demonstration movie</h2>
 <p style="text-align: center;"><iframe width="283" height="530" src="https://www.youtube.com/embed/eytVPq7QEUw" title="FPV test" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
