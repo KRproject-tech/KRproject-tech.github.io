@@ -24,6 +24,7 @@
 
 <div class="editor__main">
           <div>
+
 <p style="text-align: center;"><a href="./3Ddata/index.html" title="3D view" class="linkhover" target="_blank" rel="noopener"><img alt="XFMV-9B" style="text-align: center; display: block; margin: 0 auto 20px;" src="../../assets/XFMV-9B.png" width="2672" height="957"></a>3D view</p>
 <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/4ehwaBzO9bs?si=UDdQ07sRzSt5GUwx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p><h2 class="ttl__style01">Abstract</h2>
 <h2 class="ttl__style01"></h2>
@@ -36,18 +37,25 @@ Therefore, we designed motions in these modes and constructed a method for switc
 Experiments were conducted to verify the travel efficiency of the wheeled mode proposed in this study, and it was shown that, it can achieve greater travel efficiency than undulation.	
 </p>
 <h2 class="ttl__style01">Experimental setup</h2>
+<details>
+<summary>Details</summary>
 <ol></ol>
 <p style="text-align: justify;">The main structure is composed of duralumin and ABS, and 17 servomotors (B3MSC-1170-A, KondoKagaku, Co. Ltd., Japan) are mounted on joints as actuators. These servomotors are arranged such that the rotation axes are staggered by 90 deg to enable three-dimensional undulation. The snake-like robot is equipped with a total of 7000mAh Li-Po batteries. Waterproof covers made of rubber and nylon enable the snake-like robot to maintain its waterproof and dustproof properties.</p>
 <p style="text-align: justify;">An infinite rotation joint exists between the head and tail sections with no rotation angle limit. To prevent water invasion, a bearing with a seal, two O-rings, and an oil seal are used. The brushed DC motor (DCX22L GB KL 12V, Maxon, Switzerland) or the brushless DC motor (ECXTQ22L BL KL B STD 12V, Maxon, Switzerland) in the infinite rotation joint is controlled under the position control mode during undulation and the velocity control mode during the wheel mode by PID control. The motors are equipped with 16:1 (GPX22HP 16:1, Maxon, Switzerland) and 35:1 (GPX22HP 35:1, Maxon, Switzerland) reduction gears.</p>
 <p style="text-align: justify;">The head link is equipped with two passive wheels, and the snake-like robot is transformed into a three-wheeled vehicle by deforming its tail section into a wheel shape. Efficient travel on flat ground is achieved using a wheel-shaped tail section and an infinite rotation joint. Steering control is achieved using a servomotor at the head link.</p>
 <p style="text-align: justify;">
 <img alt="XFMV-9B_straight" style="text-align: center; display: block; margin: 0 auto 20px;" src="../../assets/XFMV-9B_straight.jpg" width="2198" height="1413">
-<img alt="XFMV-9B_wheelmode" style="text-align: center; display: block; margin: 0 auto 20px;" src="../../assets/XFMV-9B_wheelmode.jpg" width="2196" height="1559"></p>
+<img alt="XFMV-9B_wheelmode" style="text-align: center; display: block; margin: 0 auto 20px;" src="../../assets/XFMV-9B_wheelmode.jpg" width="2196" height="1559">
+</p>
+</details>
 <h2 class="ttl__style01">Comparisons Between Wheel and Undulation Modes</h2>
+<details>
+<summary>Details</summary>
 <ol></ol>
 <p style="text-align: justify;">The experimental results measured in the undulation mode (sidewinding) and wheel mode are shown as closed circles and squares, respectively. Contour lines represent the travel efficiency. The error bars in the experimental results represent the standard deviation of the time-averaged consumed power and traveling velocity with the measured data pertaining to the seven to ten trials.</p>
 <p style="text-align: justify;">We can confirm that the proposed wheel mode is significantly more efficient than undulation, which requires driving all servomotors. Undulating locomotion is effective for traveling on uneven ground, such as grasslands.</p>
 <p style="text-align: justify;"><img alt="XFMV-9B_eta" style="text-align: center; display: block; margin: 0 auto 20px;" src="../../assets/XFMV-9B_traveling_eta.png" width="2198" height="1413"></p>
+</details>
 <h2 class="ttl__style01">Demonstration movie</h2>
 <p style="text-align: center;"><iframe width="283" height="530" src="https://www.youtube.com/embed/1_FogvZMx9s" title="Outdoor drive test under two motion modes  #automobile #science #rescuerobot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="allowfullscreen"></iframe>
 <iframe width="283" height="530" src="https://www.youtube.com/embed/4neG6n6tBtA" title="RC Tricycle (First Person View)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
