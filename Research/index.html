@@ -53,9 +53,13 @@
 <div>
 <p style="text-align: justify;">The numerical model under the uniform flow is compared with that in a preceding study to verify the flapping behavior of the model. We use the validated simulation model and investigate the relationship between material damping, flapping behavior, boundary conditions, and energy harvested from the fluid. Furthermore, we confirm that the pinned boundary condition of a flexible sheet is superior to the clamped boundary condition for energy harvesting.</p>
 <h2 style="text-align: justify;" class="ttl__style01">Fast strong-coupling scheme</h2>
+<details>
+<summary>Details</summary>
 <p style="text-align: justify;">Numerical instability under large fluid density with a loose coupling scheme is caused by added mass term (artificial added mass instability). The additional iteration in a loosely coupled solver of the preceding studies is employed to solve this problem. However, iteration results in an increase in computing time. To avoid this problem, we proposed a strong coupling scheme in which the added mass term is included in the structure model.
-<img alt="added_mass_instability" src="../../assets/added_mass_instability.png" width="1944" height="656" style="text-align: center; display: block; margin: 0 auto 20px;"><img alt="strong_coupling" style="text-align: center; display: block; margin: 0 auto 20px;" src="../../assets/strong_coupling.png" width="1760" height="947"></p>
+<img alt="added_mass_instability" src="../../assets/added_mass_instability.png" width="1944" height="656" style="text-align: center; display: block; margin: 0 auto 20px;">
+<img alt="strong_coupling" style="text-align: center; display: block; margin: 0 auto 20px;" src="../../assets/strong_coupling.png" width="1760" height="947"></p>
 <img alt="work_rate_FSI" style="text-align: center; display: block; margin: 0 auto 20px;" src="../../assets/work_rate_FSI.png" width="7507" height="3126">
+</details>
 <h2 style="text-align: justify;" class="ttl__style01">Code</h2>
 <p style="text-align: justify;"><strong>GitHub (with detailed explanations) :</strong> <a href="https://github.com/KRproject-tech/FSI_by_FEM_and_UVLM" class="linkhover" target="_blank" rel="noopener">MATLAB (This code is validated with MATLAB R2007b or later versions)</a></p>
 <p style="text-align: justify;"><img alt="FSI_by_FEM_and_UVLM_github" style="text-align: center; display: block; margin: 0 auto 20px;" src="../../assets/FSI_by_FEM_and_UVLM_github.png" width="2311" height="1357"></p>
