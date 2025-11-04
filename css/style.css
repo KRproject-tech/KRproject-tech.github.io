@@ -207,6 +207,36 @@ h2{
   opacity: 1.0;
 }
 
+/* 画像付きボタン*/
+.button_5 {
+  width: 1500px;
+  height: 200px;
+  font-family: Agency FB, BankGothic Lt BT, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500; 
+  background-image:url("/eng/iwasa/assets/XFMV-9KM_rolling_mode_SIDE.jpg");
+  background-size: cover;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  /*透過の設定*/
+  opacity: 0.5;
+  }
+
+.button_5:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+  /*透過の設定*/
+  opacity: 1.0;
+}
 
 /* ----------------------------------------- */
 
